@@ -22,6 +22,7 @@ I'm always interested in collaborating on:
 - React
 - TensorFlow
 - Pandas, Numpy, Sklearn
+- OpenCV
 
 ## 💬 Ask Me About
 
