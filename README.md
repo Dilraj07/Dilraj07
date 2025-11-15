@@ -60,7 +60,7 @@ I'm always interested in collaborating on:
 
 **GitHub:** [github.com/Dilraj07](https://github.com/Dilraj07)
 
-**LinkedIn:** [linkedin.com/DilrajSingh](www.linkedin.com/in/dilraj-singh-cos007)
+**LinkedIn:** [linkedin.com/DilrajSingh](https://www.linkedin.com/in/dilraj-singh-cos007)
 
 ---
 
