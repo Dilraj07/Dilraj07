@@ -1,4 +1,4 @@
-# Hi 👋, I'm Dilraj
+# Hi , I'm Dilraj
 
 ### Specializing in Training the Machines That Will Eventually Train Us.
 
@@ -10,14 +10,14 @@ I'm an AI/ML Engineer passionate about building intelligent systems and explorin
 
 **Compressed Gene Classifier** - Developing efficient classification models for genomic data analysis
 
-## 🤝 Looking to Collaborate
+##  Looking to Collaborate
 
 I'm always interested in collaborating on:
 - WebDev projects
 - Machine Learning initiatives
 - Open source contributions
 
-## 🌱 Currently Learning
+##  Currently Learning
 
 - React
 - TensorFlow
@@ -32,7 +32,7 @@ I'm always interested in collaborating on:
 
 ---
 
-## 🛠️ Languages and Tools
+##  Languages and Tools
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="arduino" width="40" height="40"/>
@@ -64,7 +64,7 @@ I'm always interested in collaborating on:
 
 ---
 
-## ⚡ Fun Fact
+##  Fun Fact
 
 I think I am losing my humour.
 
