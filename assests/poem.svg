@@ -1,5 +1,15 @@
 <svg width="920" height="520" viewBox="0 0 920 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Typed poem">
   <defs>
+    <!-- Embed Poppins -->
+    <style>
+      @font-face {
+        font-family: "PoppinsEmbed";
+        src: url("data:font/woff2;base64,PASTE_BASE64_HERE") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
+
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#0b0f14"/>
       <stop offset="55%" stop-color="#0a0d12"/>
@@ -12,32 +22,25 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.10"/>
     </linearGradient>
 
-    <!-- Masks MUST cover the text area. So we use a very tall rect (y=-1000, height=3000). -->
-    <mask id="m1"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="0.2s" fill="freeze"/></rect></mask>
-    <mask id="m2"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="2.5s" fill="freeze"/></rect></mask>
-    <mask id="m3"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="4.9s" fill="freeze"/></rect></mask>
-    <mask id="m4"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="7.3s" fill="freeze"/></rect></mask>
-    <mask id="m5"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="9.6s" fill="freeze"/></rect></mask>
-    <mask id="m6"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="12.0s" fill="freeze"/></rect></mask>
-    <mask id="m7"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="14.5s" fill="freeze"/></rect></mask>
-    <mask id="m8"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="16.9s" fill="freeze"/></rect></mask>
-    <mask id="m9"  maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="19.3s" fill="freeze"/></rect></mask>
+    <mask id="m1" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="0.2s" fill="freeze"/></rect></mask>
+    <mask id="m2" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="2.5s" fill="freeze"/></rect></mask>
+    <mask id="m3" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="4.9s" fill="freeze"/></rect></mask>
+    <mask id="m4" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="7.3s" fill="freeze"/></rect></mask>
+    <mask id="m5" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="9.6s" fill="freeze"/></rect></mask>
+    <mask id="m6" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="12.0s" fill="freeze"/></rect></mask>
+    <mask id="m7" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="14.5s" fill="freeze"/></rect></mask>
+    <mask id="m8" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="16.9s" fill="freeze"/></rect></mask>
+    <mask id="m9" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="19.3s" fill="freeze"/></rect></mask>
     <mask id="m10" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="21.9s" fill="freeze"/></rect></mask>
     <mask id="m11" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.4s" begin="24.5s" fill="freeze"/></rect></mask>
     <mask id="m12" maskUnits="userSpaceOnUse"><rect x="0" y="-1000" width="0" height="3000" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.4s" begin="27.2s" fill="freeze"/></rect></mask>
   </defs>
 
-  <!-- Background card -->
   <rect width="920" height="520" fill="url(#bg)"/>
   <rect x="26" y="26" width="868" height="468" rx="22" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.10"/>
   <rect x="50" y="58" width="820" height="1.5" fill="url(#soft)" opacity="0.60"/>
 
-  <!-- Poem text (Poppins-first, grey-white) -->
-  <g font-family="Poppins, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-     font-size="18"
-     font-weight="500"
-     fill="#E6ECF5"
-     fill-opacity="0.86">
+  <g font-family="PoppinsEmbed" font-size="18" font-weight="500" fill="#E6ECF5" fill-opacity="0.86">
     <text x="60" y="110" mask="url(#m1)">I came with a question and a pocket full of "why",</text>
     <text x="60" y="144" mask="url(#m2)">and code that would sulk, then crash, then somehow comply.</text>
     <text x="60" y="178" mask="url(#m3)">C taught me manners: mind your bounds, count every cost,</text>
@@ -52,14 +55,7 @@
     <text x="60" y="484" mask="url(#m12)">so what I build stays steady, when the real world tries to derail.</text>
   </g>
 
-  <!-- Cursor (appears after final line; blinks) -->
-  <text x="60" y="484"
-        font-family="Poppins, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="18"
-        font-weight="500"
-        fill="#E6ECF5"
-        fill-opacity="0.62">
-    ▍
+  <text x="60" y="484" font-family="PoppinsEmbed" font-size="18" font-weight="500" fill="#E6ECF5" fill-opacity="0.62">▍
     <animate attributeName="opacity" values="0;0;1" begin="0s" dur="29.8s" fill="freeze"/>
     <animate attributeName="opacity" values="1;0;1" begin="29.8s" dur="0.9s" repeatCount="indefinite"/>
   </text>
