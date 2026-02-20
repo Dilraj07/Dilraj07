@@ -1,0 +1,68 @@
+<svg width="920" height="520" viewBox="0 0 920 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Typed poem">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="55%" stop-color="#0a0d12"/>
+      <stop offset="100%" stop-color="#0b0f14"/>
+    </linearGradient>
+
+    <linearGradient id="soft" x1="0" x2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.05)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.08)"/>
+    </linearGradient>
+
+    <style>
+      .poem {
+        font-family: Poppins, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        fill: rgba(230, 236, 245, 0.86);
+        letter-spacing: 0.15px;
+      }
+      .faint { fill: rgba(230, 236, 245, 0.62); }
+      .cursor { animation: blink 0.9s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+
+    <!-- Line reveal masks (one line after another) -->
+    <mask id="m1"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="0.2s" fill="freeze"/></rect></mask>
+    <mask id="m2"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="2.5s" fill="freeze"/></rect></mask>
+    <mask id="m3"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="4.9s" fill="freeze"/></rect></mask>
+    <mask id="m4"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.1s" begin="7.3s" fill="freeze"/></rect></mask>
+    <mask id="m5"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="9.6s" fill="freeze"/></rect></mask>
+    <mask id="m6"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="12.0s" fill="freeze"/></rect></mask>
+    <mask id="m7"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="14.5s" fill="freeze"/></rect></mask>
+    <mask id="m8"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.2s" begin="16.9s" fill="freeze"/></rect></mask>
+    <mask id="m9"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="19.3s" fill="freeze"/></rect></mask>
+    <mask id="m10"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.3s" begin="21.9s" fill="freeze"/></rect></mask>
+    <mask id="m11"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.4s" begin="24.5s" fill="freeze"/></rect></mask>
+    <mask id="m12"><rect x="0" y="0" width="0" height="36" fill="#fff"><animate attributeName="width" from="0" to="880" dur="2.4s" begin="27.2s" fill="freeze"/></rect></mask>
+  </defs>
+
+  <!-- Background card -->
+  <rect width="920" height="520" fill="url(#bg)"/>
+  <rect x="26" y="26" width="868" height="468" rx="22" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="50" y="58" width="820" height="1.5" fill="url(#soft)" opacity="0.55"/>
+
+  <!-- Poem (no headings; pure text) -->
+  <g class="poem" font-size="18">
+    <text x="60" y="110" mask="url(#m1)">I came with a question and a pocket full of “why”,</text>
+    <text x="60" y="144" mask="url(#m2)">and code that would sulk, then crash, then somehow comply.</text>
+    <text x="60" y="178" mask="url(#m3)">C taught me manners: mind your bounds, count every cost,</text>
+    <text x="60" y="212" mask="url(#m4)">for time is a strict old clerk, and mistakes get embossed.</text>
+    <text x="60" y="246" mask="url(#m5)">Then models arrived with graphs and a confident face,</text>
+    <text x="60" y="280" mask="url(#m6)">and metrics politely told me: “Son, that’s not the case.”</text>
+    <text x="60" y="314" mask="url(#m7)">I turned rain into volts, and noise into a sign,</text>
+    <text x="60" y="348" mask="url(#m8)">built sensors that gossip in data, line after line.</text>
+    <text x="60" y="382" mask="url(#m9)">I learned to trust what repeats, not what only looks neat,</text>
+    <text x="60" y="416" mask="url(#m10)">and to test my brave ideas till they stand on their feet.</text>
+    <text x="60" y="450" mask="url(#m11)">Now I chase honest agents—tools with a leash, truth with a trail,</text>
+    <text x="60" y="484" mask="url(#m12)">so what I build stays steady, when the real world tries to derail.</text>
+  </g>
+
+  <!-- Cursor appears after last line finishes -->
+  <text x="60" y="484" class="poem cursor faint" font-size="18">
+    ▍
+    <animate attributeName="opacity" values="0;0;1" begin="0s" dur="29.8s" fill="freeze"/>
+  </text>
+</svg>
